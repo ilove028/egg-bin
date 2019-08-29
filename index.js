@@ -5,6 +5,7 @@ const Command = require('./lib/command');
 
 class EggBin extends Command {
   constructor(rawArgv) {
+    // 获取用户输入
     super(rawArgv);
     this.usage = 'Usage: egg-bin [command] [options]';
 
